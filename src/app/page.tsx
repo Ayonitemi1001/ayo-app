@@ -8,7 +8,7 @@ export default function Home() {
   
 
   return (
-    <div className='Parent h-screen text-white bg-neutral-800'>
+    <div className='Parent h-screen text-white bg-neutral-700'>
       <div className='flex justify-center  gap-10 pt-10'>
         
         <div className='p-3 font-bold text-3xl hover:bg-neutral-900 rounded-lg'>Home</div>

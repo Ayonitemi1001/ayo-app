@@ -1,6 +1,2 @@
-function function1() {
-    console.log('Hello');
-    console.log(2 + 2);
-}
-
-function1();
+let name1 =  'tolu';
+console.log(name1);

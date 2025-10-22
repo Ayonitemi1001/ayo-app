@@ -24,14 +24,10 @@ export default function CardDemo() {
     if (!displayValue) return;
 
     try {
-        // Use mathjs's evaluate function to safely calculate the result
         const result = evaluate(displayValue);
-        
-        // Convert the result to a string and update the display
         setDisplayValue(String(result));
         
-    } catch (e) {
-        // Catch any syntax errors, division by zero, or other evaluation problems
+    } catch { 
         setDisplayValue('Error');
     }
   };

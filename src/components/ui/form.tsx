@@ -9,7 +9,7 @@ import {
   useFormContext,
   useFormState,
   type ControllerProps,
-  type FieldPath,bunx --bun shadcn@latest add form
+  type FieldPath,
   type FieldValues,
 } from "react-hook-form"
 
